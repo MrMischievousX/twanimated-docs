@@ -1,0 +1,30 @@
+{
+  "name": "docs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "next": "canary",
+    "react": "next",
+    "react-dom": "next"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "animated-tailwindcss": "^2.3.2",
+    "autoprefixer": "latest",
+    "daisyui": "^1.14.2",
+    "eslint": "next",
+    "eslint-config-next": "canary",
+    "patch-package": "^6.4.7",
+    "postcss": "latest",
+    "postcss-flexbugs-fixes": "latest",
+    "postcss-preset-env": "latest",
+    "tailwindcss": "next",
+    "typescript": "beta"
+  }
+}
