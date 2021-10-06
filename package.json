@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "canary",
@@ -18,7 +19,7 @@
     "animated-tailwindcss": "^2.3.2",
     "autoprefixer": "latest",
     "daisyui": "^1.14.2",
-    "eslint": "next",
+    "eslint": "7.32.0",
     "eslint-config-next": "canary",
     "patch-package": "^6.4.7",
     "postcss": "latest",

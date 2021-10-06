@@ -4,4 +4,11 @@ module.exports = withAnimations({
   content: ['./pages/**/*.ts{,x}', './components/**/*.ts{,x}'],
   plugins: [require('daisyui')],
   safelist: [{ pattern: /animate-.*/ }],
+  theme: {
+    extend: {
+      fontFamily: {
+        'sand': ['Quicksand', 'sans-serif']
+      }
+    }
+  }
 });
